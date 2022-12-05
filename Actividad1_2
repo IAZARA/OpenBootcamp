@@ -1,0 +1,13 @@
+public class Coche {
+
+	private int numeroPuertas = 4;
+	
+	public void agregarPuerta () {
+		this.numeroPuertas =+ 1;
+	}
+
+	public int mostrarNumeroPuertas() {
+		return numeroPuertas;
+	}	
+	
+}

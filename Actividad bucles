@@ -1,0 +1,67 @@
+public class Actividad3 {
+
+	public static void main(String[] args) {
+
+		// Creando IF con numero.
+
+		int numeroif = 1;
+
+		if (numeroif == 0) {
+			System.out.println("El numero es igual a  cero");
+		} else if (numeroif < 0) {
+			System.out.println("El numero es negativo");
+		} else {
+			System.out.println("El numero es positivo");
+		}
+
+		// Creando bucle while
+
+		int numeroWhile = 0;
+
+		while (numeroWhile < 3) {
+			numeroWhile = +1;
+			System.out.println(numeroWhile);
+		}
+
+		// Creando bucle do while
+
+		int numeroDoWhile = 0;
+		boolean paroBucle = true;
+
+		do {
+			numeroDoWhile = +1;
+			System.out.println(numeroDoWhile);
+		} while (paroBucle = true);
+
+		// Creando bucle for
+
+		int numeroFor = 0;
+
+		for (int i = 0; numeroFor <= 3; i++) {
+			System.out.println(numeroFor = +1);
+		}
+
+		// Creando bucle Switch
+
+		String estacionAño = "primavera";
+
+		switch (estacionAño) {
+		case "primavera":
+			System.out.println("La estacion del año es primavera");
+			break;
+		case "verano":
+			System.out.println("La estacion del año es verano");
+			break;
+		case "otoño":
+			System.out.println("La estacion del año es otoño");
+			break;
+		case "invierno":
+			System.out.println("La estacion del año es invierno");
+			break;
+		default:
+			System.out.println("Estacion invalida");
+		}
+
+	}
+
+}
